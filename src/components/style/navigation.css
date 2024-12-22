@@ -1,0 +1,12 @@
+.navigationDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.navigatorButton {
+  height: 50px;
+}
+.buttonColor {
+  background: #db3a34;
+  color: black;
+}

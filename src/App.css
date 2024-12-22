@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.navbar-logo {
+  color: #0f9d58;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+.flex-clmn {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row-j {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.justify-even {
+  justify-content: space-evenly;
+}
+.justify-sb {
+  justify-content: space-between;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-cen {
+  align-items: center;
+}
+.align-end {
+  align-items: end;
+}
+.visib-h {
+  visibility: hidden;
+}
+.hidden {
+  overflow: hidden;
+}

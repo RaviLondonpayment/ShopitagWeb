@@ -1,8 +1,11 @@
 .sectionWhite {
   background: white;
-  height: 550px;
+  height: 600px;
   padding: 2% 4%;
   color: black;
+  overflow: hidden;
+  max-width: 100%;
+  /* width: 100%; */
 }
 .sectionGrad {
   background: rgb(2, 0, 36);
@@ -87,6 +90,23 @@
   opacity: 0;
   transform: translateY(-40%);
   transition: opacity 1s ease-out, transform 1s ease-out;
+  min-width: 250px;
+  max-width: 45%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cardImg {
+  width: 150px;
+  height: 220px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cardImg2 {
+  width: 150px;
+  height: 220px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .fade-top-div.visible2 {
   opacity: 1;
@@ -96,6 +116,19 @@
 .fade-in-div.visible {
   opacity: 1;
   transform: translateX(0);
+}
+
+.sec-1a {
+  background-color: cornflowerblue;
+}
+.sec-1b {
+  background-color: brown;
+}
+.sec-2a {
+  background-color: darkgoldenrod;
+}
+.sec-2b {
+  background-color: darkmagenta;
 }
 
 .circles {
@@ -131,7 +164,24 @@
   height: 350px;
   object-fit: cover;
 }
-
+.border {
+  border-top: 5px solid black;
+  border-bottom: 30px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.camera {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  position: absolute;
+  top: 3px;
+  left: 45%;
+  z-index: 10;
+}
 .mts-round {
   border-style: none;
   /* width: 1.2em; */
@@ -154,6 +204,7 @@
   width: auto;
 }
 .billingScan {
+  flex-wrap: wrap;
 }
 
 @keyframes fadeInAnimation {

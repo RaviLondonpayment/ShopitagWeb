@@ -14,7 +14,7 @@ export const Navigation = ({ paths }) => {
         </h2>
         {/* <span class="beta">beta</span> */}
       </div>
-      <div className="navigationDiv">
+      {/* <div className="navigationDiv">
         <button
           className={`${
             paths.substring(1) ? "" : "buttonColor"
@@ -39,7 +39,7 @@ export const Navigation = ({ paths }) => {
         >
           Contact us
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -53,3 +53,9 @@ html {
 .hidden {
   overflow: hidden;
 }
+.gap-ten {
+  gap: 10px;
+}
+.gap-five {
+  gap: 5px;
+}

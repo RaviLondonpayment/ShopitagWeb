@@ -1,6 +1,6 @@
 .sectionWhite {
   background: white;
-  height: 600px;
+  min-height: 600px;
   padding: 2% 4%;
   color: black;
   overflow: hidden;
